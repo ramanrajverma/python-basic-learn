@@ -21,3 +21,12 @@ print(name.lower())
 #if didgit there ?
 print(name.isdigit())
 print(name.isalpha())
+
+phone_number ="+91-89683-04100"
+print(phone_number.count("-"))
+
+#replace()
+phone_number = phone_number.replace("-","/")
+print(phone_number)
+
+print(help(str))
