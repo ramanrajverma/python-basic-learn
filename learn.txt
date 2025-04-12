@@ -1,1 +1,7 @@
 it checkout -b learn-pyhton-b1
+
+#To set the upstream
+    RajUbuntu@Ubunut:~/RamanRajLearnUbuntu/PythonUbuntu/python-basic-learn$ git push --set-upstream origin learn-pyhton-b1
+
+
+vid : 1:51

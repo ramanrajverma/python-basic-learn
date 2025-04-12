@@ -1,8 +1,8 @@
 
 
-price1 = 3.1256
-price2 = -345.456
-price3 = 12.4345
+price1 = 30000.1256
+price2 = -34225.456
+price3 = 120001.4345
 print(f"Price 1 is ${price1: .2f}")  #print the result with from decimal to two places(f floating)
 print(f"Price 2 is ${price2: .2f}")
 print(f"Price 3 is ${price3: .1f}")
@@ -32,3 +32,8 @@ print("Center alligned output")
 print(f"Price 1 is ${price1:^10}")  
 print(f"Price 2 is ${price2:^10}")
 print(f"Price 3 is ${price3:^10}")
+
+print("Adding commans at thousand seprator + at two decimal places + precceded with plus sign if number is positive")
+print(f"Price 1 is ${price1:+,.2f}")  
+print(f"Price 2 is ${price2:+,.2f}")
+print(f"Price 3 is ${price3:+,.2f}")
