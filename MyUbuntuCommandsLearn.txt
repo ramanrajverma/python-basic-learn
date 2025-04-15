@@ -113,10 +113,11 @@ RajUbuntu@Ubunut:~/RamanRajLearnUbuntu$ ls -lh
     mkdir directory_name
 
 # To remove directory
-    rmdir directory_name
-    rm -rf
-    
 # Change path in Linux
+    rmdir directory_name   //will work fine for empty directory(rmdir: failed to remove 'new_directory/': Directory not empty)
+    rm -rf <dir_name> // ll work for directory with files too
+		rm -rf new_directory/
+	
     cd  ---> change directory
     
 --------------------------------------------------------------------    Date: 08/04/25
@@ -245,8 +246,33 @@ shuf
 		-------------	
 		---------
 	Then ctrl+d to exit  --- and ll create one typescript file
+
+
+----------------------------  Date: 15/4/25 ----------------------
+# How to create the shortcut/alias of a command
+	RajUbuntu@Ubunut:~$ alias z="ls -ltr"   // here now z ll be the shortcut for "ls -ltr". Here the alias created is TEMP, vanished with logout***, To cerate permanent is diff
+	RajUbuntu@Ubunut:~$ z
 	
+# To check the alias created
+	RajUbuntu@Ubunut:~$ alias -p
+	o/p alias z='ls -ltr'
+
+# Zip/Unzip  --- compress/uncompress a file in Linux
+	RajUbuntu@Ubunut:~/RamanRajLearnUbuntu$ gzip -k test.csv   // will create another file BUT ZIPPED
+	o/p  ---
+	-rw-rw-rw- 1 RajUbuntu RajUbuntu  195220 Mar  7 09:07 test.csv.gz   // compressed csv created with gz extesion
 
 
+# To undo the zipped file (or unzip the file)  - two ways
+	i. RajUbuntu@Ubunut:~/RamanRajLearnUbuntu$ gzip -d test.csv.gz
+	ii. RajUbuntu@Ubunut:~/RamanRajLearnUbuntu$ gunzip test.csv.gz
 
+
+# How to compress/zip a folder in Linux
+	tar -czf <newdirectoryname_with_extension> <old_drectory_name>/
+		RajUbuntu@Ubunut:~/RamanRajLearnUbuntu$ tar -czf compress.tar.gz new_directory/
+		RajUbuntu@Ubunut:~/RamanRajLearnUbuntu$ tar -czf comressdir.tar.gz new_directory/
+
+# to Unzip dir/ decompress dir	
+	RajUbuntu@Ubunut:~/RamanRajLearnUbuntu$ tar -xzf compress.tar.gz
 
