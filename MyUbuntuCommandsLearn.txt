@@ -1,4 +1,8 @@
 
+RajUbuntu@Ubunut:~/RamanRajLearnUbuntu/archive$ unzip -l mycollectivezippedfile.zip 
+
+
+
 
 # To clear the Terminal
  - clear / ctrl+l
@@ -275,4 +279,57 @@ shuf
 
 # to Unzip dir/ decompress dir	
 	RajUbuntu@Ubunut:~/RamanRajLearnUbuntu$ tar -xzf compress.tar.gz
+	
+
+------------------------- Date: 16/04/25 ----------------------------------------------------
+# To compress two files into one --- means zipped into one folder
+	RajUbuntu@Ubunut:~/RamanRajLearnUbuntu$ zip mycollectivezippedfile.zip xaa xab
+		zip <new-zipped-filename> file1 file2 file3 ...
+# move file from one dir to another
+		RajUbuntu@Ubunut:~/RamanRajLearnUbuntu$ mv mycollectivezippedfile.zip archive/
+		mv <file-name> <directory-name-where-to-move>
+# To uncompress/unzip a zipped file
+	RajUbuntu@Ubunut:~/RamanRajLearnUbuntu/archive$ unzip mycollectivezippedfile.zip
+
+# To check How many files there inside ziped file
+		RajUbuntu@Ubunut:~/RamanRajLearnUbuntu/archive$ unzip -l mycollectivezippedfile.zip 
+
+Date: 19/04/25
+# How to download file from internet***
+	wget https://www.python.org/downloads/release/python-3133
+	wget <paste download url>
+
+# How to call api in Linux/terminal  ---------- IMP
+	curl <api url>
+	RajUbuntu@Ubunut:~/RamanRajLearnUbuntu$ curl https://jsonplaceholder.typicode.com/posts
+	RajUbuntu@Ubunut:~/RamanRajLearnUbuntu$ curl http://numberapi.com/random
+
+# How to install an application in Linux
+	apt or yum/dnf
+	apt(Ubunut)
+	yum/dnf(Linux, fedorra, centos)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

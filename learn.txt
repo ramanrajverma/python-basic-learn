@@ -4,4 +4,5 @@ it checkout -b learn-pyhton-b1
     RajUbuntu@Ubunut:~/RamanRajLearnUbuntu/PythonUbuntu/python-basic-learn$ git push --set-upstream origin learn-pyhton-b1
 
 
-vid : 2:11:36
+vid : 2:11:36RajUbuntu@Ubunut:~/RamanRajLearnUbuntu$ tar -xzf compress.tar.gz
+16/04/25 -- vid 2:29:02
