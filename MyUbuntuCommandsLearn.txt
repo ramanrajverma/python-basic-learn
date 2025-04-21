@@ -310,9 +310,32 @@ Date: 19/04/25
 	yum/dnf(Linux, fedorra, centos)
 
 
+Date: 20/04/25
+# check installed appliaction listing
+	dnf list --installed 
+	dnf list --installed | grep python
+
+	apt list installed
+	apt list installed | python
 
 
+Date: 21/04/25
+# Check all version of any s/w available
+	e.g1
+		RajUbuntu@Ubunut:~$ systemctl status jenkins.service
+	e.g2
+	RajUbuntu@Ubunut:~$ apt list --all-versions | grep mysql    // But apt only in ubunut
+	apt list --all-versions | grep java    // But apt only in ubunut
+	other
+	yum
 
+
+# start and stop service in ubunut/linux   -------------> Need more R&D
+ Check the status of service/start/stop 
+	RajUbuntu@Ubunut:~$ systemctl status firewalld.service
+
+	systemctl start jenkins.service
+	systemctl stop jenkins.service
 
 
 
