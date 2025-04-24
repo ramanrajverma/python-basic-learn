@@ -12,3 +12,9 @@ print(fruits.count("orange"))
 # For iteration
 for fruit in fruits:
     print(fruit)
+
+
+
+for fruit in fruits:
+    print(fruit)
+

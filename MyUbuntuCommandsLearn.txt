@@ -338,6 +338,22 @@ Date: 21/04/25
 	systemctl stop jenkins.service
 
 
+# Environment variables / get all Environment varibles
+	RajUbuntu@Ubunut:~$ printenv
+# Check instralled s/w (java/jdk) version 
+	RajUbuntu@Ubunut:~$ apt list --installed | grep openjdk
+
+# If want to set/use any specific java version
+		i. RajUbuntu@Ubunut:~$ cd /usr/lib/jvm
+	
+		ii.RajUbuntu@Ubunut:/usr/lib/jvm$ ls
+			java-1.17.0-openjdk-amd64  java-17-openjdk-amd64
+		iii. Give the entire version
+			RajUbuntu@Ubunut:/usr/lib/jvm$ export JAVA_HOME = "/usr/lib/jvm/java-1.17.0-openjdk-amd64  java-17-openjdk-amd64
+
+
+--------------------------- Date - 24/04/2025 --------------------------------
+
 
 
 
