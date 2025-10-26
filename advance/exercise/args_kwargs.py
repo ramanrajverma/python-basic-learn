@@ -27,7 +27,10 @@ def shipping_label(*args, **kwargs):
     print("-------  Home Address ------")
     print()
     
-    for key, val in kwargs.items():
+    print(f"{kwargs.get('village')}")  #one way to  do it
+    print(f"{kwargs.get('village1')}") #If no value this ll give : none
+
+    for key, val in kwargs.items():   #another way to do it
         print(f"{key}: {val}")
 
 shipping_label("Mr.", "Raman", "Raj", "Verma",
